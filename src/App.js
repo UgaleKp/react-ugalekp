@@ -13,7 +13,7 @@ const App = () => {
     <>
       <div>
         <button className={style} onClick={changeStyle}>
-          Click me!
+         Change color
         </button>
       </div>
     </>
