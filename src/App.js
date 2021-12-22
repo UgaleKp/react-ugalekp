@@ -18,9 +18,7 @@ const App = () => {
           Change color
         </button>
       </div>
-      {/* <div style={{ marginTop: '50px', marginRight: '200px' }}>
-        Show UseEffect usage
-      </div> */}
+
       <UseEffectUsage />
     </>
   );
