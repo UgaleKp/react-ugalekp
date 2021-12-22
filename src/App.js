@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './style.css';
+import UseEffectUsage from './UseEffectUsage.js';
+import ReactDOM from 'react-dom';
 
 const App = () => {
   const [style, setStyle] = useState('color1');
@@ -13,9 +15,13 @@ const App = () => {
     <>
       <div>
         <button className={style} onClick={changeStyle}>
-         Change color
+          Change color
         </button>
       </div>
+      {/* <div style={{ marginTop: '50px', marginRight: '200px' }}>
+        Show UseEffect usage
+      </div> */}
+      <UseEffectUsage />
     </>
   );
 };
